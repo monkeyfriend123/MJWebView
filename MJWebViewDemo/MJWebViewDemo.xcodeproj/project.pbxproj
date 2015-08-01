@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B3715441B6CBFF00089EF40 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B3715431B6CBFF00089EF40 /* LaunchScreen.xib */; };
 		4BD7092E1B6C629200C43510 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD7092D1B6C629200C43510 /* main.m */; };
 		4BD709311B6C629200C43510 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD709301B6C629200C43510 /* AppDelegate.m */; };
 		4BD709341B6C629200C43510 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD709331B6C629200C43510 /* ViewController.m */; };
 		4BD709371B6C629200C43510 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BD709351B6C629200C43510 /* Main.storyboard */; };
 		4BD709391B6C629200C43510 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BD709381B6C629200C43510 /* Assets.xcassets */; };
-		4BD7093C1B6C629200C43510 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BD7093A1B6C629200C43510 /* LaunchScreen.storyboard */; };
 		4BD709461B6C62AD00C43510 /* MJWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD709451B6C62AD00C43510 /* MJWebView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B3715431B6CBFF00089EF40 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		4BD709291B6C629200C43510 /* MJWebViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MJWebViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BD7092D1B6C629200C43510 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4BD7092F1B6C629200C43510 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -25,7 +26,6 @@
 		4BD709331B6C629200C43510 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4BD709361B6C629200C43510 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4BD709381B6C629200C43510 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4BD7093B1B6C629200C43510 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4BD7093D1B6C629200C43510 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4BD709441B6C62AD00C43510 /* MJWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJWebView.h; sourceTree = "<group>"; };
 		4BD709451B6C62AD00C43510 /* MJWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJWebView.m; sourceTree = "<group>"; };
@@ -68,9 +68,9 @@
 				4BD709331B6C629200C43510 /* ViewController.m */,
 				4BD709351B6C629200C43510 /* Main.storyboard */,
 				4BD709381B6C629200C43510 /* Assets.xcassets */,
-				4BD7093A1B6C629200C43510 /* LaunchScreen.storyboard */,
 				4BD7093D1B6C629200C43510 /* Info.plist */,
 				4BD7092C1B6C629200C43510 /* Supporting Files */,
+				4B3715431B6CBFF00089EF40 /* LaunchScreen.xib */,
 			);
 			path = MJWebViewDemo;
 			sourceTree = "<group>";
@@ -149,8 +149,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BD7093C1B6C629200C43510 /* LaunchScreen.storyboard in Resources */,
 				4BD709391B6C629200C43510 /* Assets.xcassets in Resources */,
+				4B3715441B6CBFF00089EF40 /* LaunchScreen.xib in Resources */,
 				4BD709371B6C629200C43510 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -178,14 +178,6 @@
 				4BD709361B6C629200C43510 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		4BD7093A1B6C629200C43510 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4BD7093B1B6C629200C43510 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -278,7 +270,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MJWebViewDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mc.MJWebViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -290,7 +282,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MJWebViewDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mc.MJWebViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -316,6 +308,7 @@
 				4BD709421B6C629200C43510 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
